@@ -1,0 +1,56 @@
+.div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  padding: 0 10% 1rem;
+}
+
+.div input {
+  width: 100%;
+  border-radius: var(--border-radius-small);
+  border: 1px solid var(--color-gray-300);
+  padding: 0.3rem 0.2rem;
+  font-size: 1rem;
+}
+
+.drop_down {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.y-circle {
+  color: green;
+  font-size: 1.5rem;
+  position: absolute;
+  right: calc(10% + 0.3rem);
+  top: 0.45rem;
+}
+
+.x-circle {
+  color: rgb(121, 26, 26);
+  font-size: 1.5rem;
+  position: absolute;
+  right: calc(10% + 0.3rem);
+  top: 0.45rem;
+}
+
+.error-div {
+  color:rgb(121, 26, 26);
+  position: absolute;
+  top: 2.2rem;
+  left: 10%;
+  font-size: 0.8rem;
+}
+
+.empty-div {
+  color: rgb(133, 111, 0);
+  position: absolute;
+  top: 2.2rem;
+  left: 10%;
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
